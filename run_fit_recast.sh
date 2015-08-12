@@ -9,7 +9,7 @@ codearchive=$4
 mkdir $workdir
 tar -C $workdir -xzvf $codearchive
 
-cd workdir/histfitter_code
+cd $workdir/histfitter_code
 
 echo "input file for fit is: $inputfile"
 
